@@ -1,0 +1,45 @@
+.search-bar-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7A68F0; /* bluish purple */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-autosuggest__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-top: 4px;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-autosuggest__suggestion {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #f5f5f5;
+  }
+  
